@@ -1,0 +1,23 @@
+{
+  "name": "chat-todo",
+  "version": "1.0.0",
+  "description": "An Express Todo app with TypeScript.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tscode --schoma node index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gracelungu/chat-todo.git
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.9.2"
+  },
+  "devdependencies": {
+    "tsconfig": "^#.0.3"
+  }
+}
