@@ -1,0 +1,1 @@
+import morgan from 'morgan';\nimport { Request, Response, NextFunction, Express } from 'express';\n\nconst loggerMiddleware = morgan('development');\n\nexport default loggerMiddleware;
